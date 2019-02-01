@@ -33,9 +33,9 @@
     margin: 0; /* Important for vertical align on mobile phones */
   }
   
-  /* Add a red background color to navbar links on hover */
+  /* Add a background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(37, 221, 197);
   }
   
   /* Dropdown content (hidden by default) */
@@ -81,13 +81,9 @@ input {
 
 }
 
-.card {
-  border: 2px solid black;
-}
-
 /* Sign-in styles */
 h1 {
-  font-style: oblique;
+  font-style: initial;
 }
 
 input {
@@ -97,6 +93,8 @@ input {
   font-size: 15px;
 
 }
-
+body{
+  background-color: rgb(37, 221, 197);
+}
 
 
